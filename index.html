@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>mod-1</title>
+
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+
+    <div ng-controller="myCtrl">
+      <h1>Is it Too Much Food?</h1>
+      <input type="text" ng-model="food">
+      <h2>Message says: {{lunchCheckController()}}</h2>
+    </div>
+    <!-- end of myCtrl div -->
+  </body>
+</html>
